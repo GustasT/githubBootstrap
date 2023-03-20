@@ -1,0 +1,102 @@
+body .top-background .navbar {
+  background-color: black;
+}
+body .top-background .navbar .navbar-brand {
+  color: white;
+}
+body .top-background .navbar .nav-link {
+  color: white;
+}
+body .video-section {
+  height: 75vh;
+}
+body section .container .about {
+  max-height: 1140px;
+}
+body .portfolio-section {
+  background-color: #90a8af;
+}
+
+.bi-lg {
+  font-size: 60px;
+}
+
+.bi-md {
+  font-size: 40px;
+}
+
+.bi-sm {
+  font-size: 20px;
+}
+
+.image-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-item {
+  border: 10px solid white;
+}
+
+section {
+  padding: 7em 0;
+}
+
+.top-background {
+  background-image: url("https://wallpapers.com/images/featured/qsixk71w7hu3alee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 150%;
+}
+
+.testimonial-img-container {
+  height: 60px;
+  width: 60px;
+}
+.testimonial-img-container img {
+  border-radius: 50%;
+}
+
+.btn-sharp-light {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.btn-sharp-dark {
+  border: 2px solid black;
+  color: black;
+  background-color: transparent;
+  letter-spacing: 0.2em;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+
+.btn-sharp-dark :hover {
+  background-color: black;
+  color: white;
+}
+
+.btn-sharp-light :hover {
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    background: transparent !important;
+  }
+  .form-control {
+    background-color: transparent !important;
+  }
+}
+
+/*# sourceMappingURL=/styles.164d45a1.css.map */
